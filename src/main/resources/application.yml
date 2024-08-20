@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spotifyAPI
+    auth: spotifyAuthAPI
+
+spotify:
+  auth: https://accounts.spotify.com
+  url: https://api.spotify.com
+  identifier: v1
+  type: browse
+  path: new-releases
+
+  endpoint:
+    auth: ${spotify.auth}/api/token
+    albums:
+      new-releases: ${spotify.url}/${spotify.identifier}/${spotify.type}/${spotify.path}
