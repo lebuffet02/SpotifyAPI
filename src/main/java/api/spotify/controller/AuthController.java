@@ -1,6 +1,6 @@
 package api.spotify.controller;
 
-import api.spotify.dto.AuthSpotifyDTO;
+import api.spotify.dto.auth.AuthSpotifyDTO;
 import api.spotify.form.AuthSpotify;
 import api.spotify.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;

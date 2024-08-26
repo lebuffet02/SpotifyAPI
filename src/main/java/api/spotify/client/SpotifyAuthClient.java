@@ -1,7 +1,7 @@
 package api.spotify.client;
 
 import api.spotify.config.OpenFeignConfig;
-import api.spotify.dto.AuthSpotifyDTO;
+import api.spotify.dto.auth.AuthSpotifyDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;

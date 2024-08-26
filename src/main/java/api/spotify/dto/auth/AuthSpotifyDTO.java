@@ -1,4 +1,4 @@
-package api.spotify.dto;
+package api.spotify.dto.auth;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
