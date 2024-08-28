@@ -1,4 +1,4 @@
-package api.spotify.dto;
+package api.spotify.dto.album;
 
 import api.spotify.dto.artist.ArtistInfoDTO;
 import lombok.AllArgsConstructor;

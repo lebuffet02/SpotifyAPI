@@ -9,6 +9,6 @@ public class OpenFeignConfig {
 
     @Bean
     public RequestInterceptor requestInterceptor() {
-        return requestTemplate -> requestTemplate.header("Content-Type", "application/x-www-form-urlencoded");
+        return reqTemplate -> reqTemplate.header("Content-Type", "application/x-www-form-urlencoded");
     }
 }

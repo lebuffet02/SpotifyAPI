@@ -10,6 +10,7 @@ import java.util.List;
 @Setter
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class Album {
+
     private String href;
     private int limit;
     private String next;

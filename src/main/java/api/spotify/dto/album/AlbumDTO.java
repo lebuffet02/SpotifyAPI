@@ -14,6 +14,7 @@ import java.util.List;
 @Setter
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class AlbumDTO {
+
     private String albumType;
     private int totalTracks;
     private List<String> availableMarkets;
