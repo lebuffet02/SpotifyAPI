@@ -10,5 +10,5 @@ import lombok.Setter;
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class AlbumResponseDTO {
 
-    private Album albums;
+    private AlbumDTO albums;
 }
